@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    padding-bottom: 24.4%;
+    background: 
+        linear-gradient(to right, #00aaff, #ffaa00) 0 0 / 100% 5px no-repeat,
+        linear-gradient(to bottom, #ffaa00, #00ff88) 100% 0 / 5px 100% no-repeat,
+        linear-gradient(to left, #00ff88, #ff00aa) 0 100% / 100% 5px no-repeat,
+        linear-gradient(to top, #ff00aa, #00aaff) 0 0 / 5px 100% no-repeat;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu > img {
+    margin-top: 0;
+    padding: 0;    
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    color: #0077ff;
+    text-shadow: 0 0 20px #ffffff, 0 0 5px #0077ff;;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.top-decor {
+    background: linear-gradient(90deg, #22ff98, #06c9ff, red, yellow, pink, purple); 
+    height: 4px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    width: 200px; 
+}
+
+.submenu a {
+    padding: 10px 15px;
+}
+
+html {
+    background-image: url("8b05a8b3-6b18-40a5-a4eb-9ce942e53d4e.webp");
+    width: 100%;
+    
+    
+}
+.Koloreko-border {
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+nav img {
+    float: left;
+}
+form{
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 350px;
+    border: 5px solid #0077ff;  
+    color: white;
+    margin:auto;
+    background-color:#333;
+}
+strong{
+    font-size: 20px;
+}
+#bidali{
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    width: 350px;
+    background-color: yellow;
+       
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+textarea {
+    width: 98%;
+}
+label {
+    width: 98%;
+}
