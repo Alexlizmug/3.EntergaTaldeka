@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.menua {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #4b4a4a;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 100;
+    box-shadow: 0 0 15px #4b4a4a;
+
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px;
+}
+.navbar a:hover {
+    background: #e91e63;
+
+}
+#bilatzailea {
+    margin-right: 50px;
+    color: #fff;
+}
+#bidalketaBotoia {
+    font-weight: 600;
+    padding: 3px;
+}
+.ikurriñak {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin: 5px 20px 5px 5px;
+
+}
+.ikurriñak:hover {
+    transform: scale(1.1);
+
+}
+
+/*----------------------------------------------*/
+
+
+.produktuak {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px auto;
+    gap: 50px;
+}
+.produktua {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+.produktua-imagen {
+    width: 60%;
+    height: 60%;
+}
+
+h1 {
+    font-size: 60px;
+    max-width: 100%;
+    margin: 50px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:50px;
+}
+.modeloak {
+    border-radius: 10px;
+}
+.modeloak:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+.produktu-informazio{
+    padding: 15px 30px;
+
+}
+.modeloak img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+}
+
+.produktu-informazio > h3 {
+    font-size: 30px;
+    margin: 15px;
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.produktu-informazio > p {
+    font-size: 25px;
+    margin: 15px;
+
+}
+.modeloak figure{
+    overflow: hidden;
+}
+.modeloak img:hover{
+    transform: scale(1.2);
+}
+.produktu-informazio > .botoia {
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    width: 100%;
+    margin:auto;
+    border-radius: 15px;
+}
+.produktu-informazio > .botoia:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+
+   
+}
+
+.footer-content p {
+    margin: 10px 0;
+    display: inline;
+    margin: 0 20px;
+}
+
+.footer-content a {
+    color: #04d1ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer-content > h1 {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.footer-content > p:hover a:hover{
+    color: #000000;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.3s;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}

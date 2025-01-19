@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+}
+body {
+    text-align: center;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap" rel="stylesheet">;}
+
+.menua {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #4b4a4a;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px;
+}
+.navbar a:hover {
+    background: #e91e63;
+
+}
+#bilatzailea {
+    margin-right: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+#bidalketaBotoia {
+    font-weight: 600;
+    padding: 3px;
+}
+.ikurriñak {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin: 5px 20px 5px 5px;
+
+}
+.ikurriñak:hover {
+    transform: scale(1.1);
+
+}
+/*-------------------------------------------------*/
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+.formularioa {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+label.block {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.text {
+    font-size: 20px;
+}
+input.fullWidth,
+textarea.fullWidth,
+select.fullWidth {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #5b5b5b;
+    border-radius: 4px;
+}
+
+
+#bidaliBotoiBerdea {
+    background-color: rgba(39, 163, 50, 0.7);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+#bidaliBotoiBerdea:hover {
+    background-color: green;
+    transform: scale(1.1);
+
+}
+
+#bidaliBotoiGorria {
+    background-color: rgba(235, 98, 88, 0.7);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+
+#bidaliBotoiGorria:hover {
+    background-color: rgba(240, 42, 27, 0.9);
+    transform: scale(1.1);
+
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/*-------------------------------------------*/
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+   
+}
+
+.footer-content p {
+    margin: 10px 0;
+    display: inline;
+    margin: 0 20px;
+}
+
+.footer-content a {
+    color: #04d1ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer-content > h1 {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.footer-content > p:hover a:hover{
+    color: #000000;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.3s;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
